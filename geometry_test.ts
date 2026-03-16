@@ -1,4 +1,4 @@
-import { assertAlmostEquals } from "jsr:@std/assert";
+import { assertAlmostEquals } from "jsr:@std/assert@^1.0.0";
 import { Circle, Point2D } from "./geometry.ts";
 
 Deno.test("circumference of a circle with radius 5 is roughtly 31.416", () => {
